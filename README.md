@@ -18,10 +18,9 @@ Now we need some sort of map data
 
 `wget http://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf`
 
-The website is here:
-https://download.geofabrik.de/
+The website is [here](https://download.geofabrik.de/)
 
-For my purposes I want South Africa[https://download.geofabrik.de/africa/south-africa.html]:
+For my purposes I want [South Africa](https://download.geofabrik.de/africa/south-africa.html)
 
 `wget https://download.geofabrik.de/africa/south-africa-latest.osm.pbf`
 
@@ -36,3 +35,5 @@ Once the download is complete we can run the following command to start, note th
 
 In the repo there is a docker file that can build an image that can be run.
 Note the map data needs to be there and also should be changed in the `gh.sh` file
+
+Image can be downloaded [here](https://hub.docker.com/r/vickusdocker/graphhopper-sa) it's huge since it has the data for south africa in there 
