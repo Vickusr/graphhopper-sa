@@ -28,7 +28,7 @@ Once the download is complete we can run the following command to start, note th
 
 ## Step 3 - start the server
 
-`java -Ddw.graphhopper.datareader.file=berlin-latest.osm.pbf -jar *.jar server config-example.yml`
+`java -Ddw.graphhopper.datareader.file=south-africa-latest.osm.pbf -jar *.jar server config-example.yml`
 
 
 ## Docker
